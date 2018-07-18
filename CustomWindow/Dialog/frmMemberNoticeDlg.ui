@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmMemberNoticeDlg</class>
+ <widget class="QDialog" name="frmMemberNoticeDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>987</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>会员公告查询</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>871</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>309</x>
+      <y>90</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>结束日期</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>48</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>公告序号</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit_ed">
+    <property name="geometry">
+     <rect>
+      <x>386</x>
+      <y>88</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>60</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+color:white;
+font: 12pt &quot;宋体&quot;;
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:25px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}</string>
+    </property>
+    <property name="text">
+     <string>查看详情</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit_st">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>88</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>60</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+color:white;
+font: 12pt &quot;宋体&quot;;
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:25px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}</string>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>309</x>
+      <y>48</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>公告标题</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>138</y>
+      <width>731</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>48</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>88</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>开始日期</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>386</x>
+      <y>48</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

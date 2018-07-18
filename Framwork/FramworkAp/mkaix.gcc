@@ -1,0 +1,28 @@
+	 
+
+#Makefile for 
+# AIX version
+
+.SUFFIXES:
+.SUFFIXES: .cpp .obj .o
+
+CPP = g++
+
+KERNEL_INC = -I../Utility -I../NetMgr -I../CommFramwork 
+
+CPPFLAGS =  -g -Wall  -O2 -fpic
+CPPDEFS = -D_THREAD_SAFE -D_MT -DSA_USE_PTHREAD
+
+.cpp.o:
+	$(CPP) $(CPPFLAGS) -c  $(CPPDEFS) $(KERNEL_INC) $< -o $@
+
+OBJL = ArrayListMsg.o HashtableMsg.o BroadcastPacket.o TradePacket.o IpcPacket.o LinePacket.o PairPacket.o ProcessInterfaceCmd.o ProcessInterfaceH1C.o ProcessInterfaceH2C.o ProcessInterfaceKC.o ProcessinterfaceKS.o
+
+ALL:  libframworkap.a  clean
+
+libframworkap.a: $(OBJL)
+	ar rv $@ $(OBJL)
+	mv $@ $(HOME)/lib
+clean:
+	rm -f *.o
+

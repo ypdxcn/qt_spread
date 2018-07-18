@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmMonthSettlementDlg</class>
+ <widget class="QDialog" name="frmMonthSettlementDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>152</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>月结单查询</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>541</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>51</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>*查询日期</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>90</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+color:white;
+font: 12pt &quot;宋体&quot;;
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:25px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}</string>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>241</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>frmMonthSettlementDlg</receiver>
+   <slot>OnBnClickedButtonQuery()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>441</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>440</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>OnBnClickedButtonQuery()</slot>
+ </slots>
+</ui>

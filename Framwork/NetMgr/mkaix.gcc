@@ -1,0 +1,26 @@
+
+#Makefile for 
+# AIX version
+
+.SUFFIXES:
+.SUFFIXES: .cpp .obj .o
+
+CPP = g++
+
+KERNEL_INC = -I../Utility 
+
+CPPFLAGS =  -g -Wall  -O2
+CPPDEFS = -D_THREAD_SAFE -D_MT -DSA_USE_PTHREAD
+
+.cpp.o:
+	$(CPP) $(CPPFLAGS) -c  $(CPPDEFS) $(KERNEL_INC) $< -o $@
+
+OBJL = NetMgr.o 
+
+ALL:   libnetmgr.a  clean
+
+libnetmgr.a : $(OBJL)
+	ar rv $@ $(OBJL)
+	mv $@ $(HOME)/lib
+clean:
+	rm -f *.o

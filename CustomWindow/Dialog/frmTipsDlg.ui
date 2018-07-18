@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmTipsDlg</class>
+ <widget class="QDialog" name="frmTipsDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>273</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>frmTipsDlg</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>521</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>190</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+color:white;
+font: 12pt &quot;宋体&quot;;
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:25px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}</string>
+    </property>
+    <property name="text">
+     <string>下一条</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>190</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+color:white;
+font: 12pt &quot;宋体&quot;;
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:25px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}</string>
+    </property>
+    <property name="text">
+     <string>确认</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>501</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+color:white;
+font: 12pt &quot;宋体&quot;;
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:25px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}</string>
+    </property>
+    <property name="text">
+     <string>上一条</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>180</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下次不再提醒</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>frmTipsDlg</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>512</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>frmTipsDlg</receiver>
+   <slot>OnBnClickedButtonPre()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>213</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>265</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>frmTipsDlg</receiver>
+   <slot>OnBnClickedButtonNext()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>OnBnClickedButtonPre()</slot>
+  <slot>OnBnClickedButtonNext()</slot>
+  <slot>OnBnClickedOk()</slot>
+ </slots>
+</ui>

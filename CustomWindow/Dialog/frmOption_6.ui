@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmOption_6</class>
+ <widget class="QWidget" name="frmOption_6">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>501</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>frmOption_6</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_up">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上移</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_down">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下移</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_select_all">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全部选择</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_select_none">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>210</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全部不选</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_default">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>恢复默认</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>201</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <property name="resizeMode">
+    <enum>QListView::Adjust</enum>
+   </property>
+   <property name="batchSize">
+    <number>15</number>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_up</sender>
+   <signal>clicked()</signal>
+   <receiver>frmOption_6</receiver>
+   <slot>slotUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>76</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_down</sender>
+   <signal>clicked()</signal>
+   <receiver>frmOption_6</receiver>
+   <slot>slotDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>293</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_select_all</sender>
+   <signal>clicked()</signal>
+   <receiver>frmOption_6</receiver>
+   <slot>slotAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>193</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>440</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_select_none</sender>
+   <signal>clicked()</signal>
+   <receiver>frmOption_6</receiver>
+   <slot>slotUnAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>297</x>
+     <y>223</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>223</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_default</sender>
+   <signal>clicked()</signal>
+   <receiver>frmOption_6</receiver>
+   <slot>slotDefault()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>272</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>415</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotUp()</slot>
+  <slot>slotDown()</slot>
+  <slot>slotAll()</slot>
+  <slot>slotUnAll()</slot>
+  <slot>slotDefault()</slot>
+ </slots>
+</ui>

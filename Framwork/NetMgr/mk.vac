@@ -1,0 +1,27 @@
+
+#Makefile for 
+# AIX version
+
+.SUFFIXES:
+.SUFFIXES: .cpp .obj .o
+
+
+
+KERNEL_INC=-I$(HOME)/include -I../Utility 
+
+CPP = xlC_r 
+CPPFLAGS = -g -qrtti=all -qcpluscmt -O2
+CPPDEFS = -DAIX -DUNIX -DNDEBUG  -D_THREAD_SAFE 
+
+.cpp.o:
+	$(CPP) $(CPPFLAGS) -c  $(CPPDEFS) $(KERNEL_INC) $< -o $@
+
+OBJL = NetMgr.o 
+
+ALL:   libnetmgr.a  clean
+
+libnetmgr.a : $(OBJL)
+	ar rv $@ $(OBJL)
+	mv $@ $(HOME)/lib
+clean:
+	rm -f *.o

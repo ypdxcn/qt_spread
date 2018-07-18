@@ -1,0 +1,111 @@
+﻿
+QTableView
+{ 
+    font: 12pt "Microsoft YaHei UI";
+	color:#b4b4b4;/*表格内文字颜色*/
+    background-color:#181a1d;
+	alternate-background-color:#181a1d; /*隔行交替颜色*/
+	selection-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2a3a57, stop: 0.15 #2a3a57 ,stop: 0.85 #2a3a57,stop: 1 #2a3a57);
+    margin:0px;
+    border:none;
+	border-bottom:50px;
+    min-height:100px;
+} 
+
+QTreeView::item:selected {
+    color:#b4b4b4;/*表格内文字颜色*/
+}
+
+/*表格内容*/
+/*QTableView::item {
+        font-size:12px;
+        font-family:"宋体";
+		color:white;
+        padding-left: 5px;
+        padding-right: 0px;
+        border: none;
+}*/
+
+/*表头:整条的设置*/
+QHeaderView 
+{ 
+	color:#b4b4b4;
+	font: 11pt "Microsoft YaHei UI" bold;
+	background-color: #181a1d; /*设置表头空白区域背景色:表头个表中间的区域*/
+
+    border:none;/*先把边框宽度设为0，即隐藏所有表头边框*/
+    border-bottom:5px solid #030303;/*然后只显示下边框，因为上边框和左右边框是整个Table的边框，都显示会有2px的边框宽度*/
+    height:20px;/*表头高度*/
+} 
+
+/*表头内容区域*/
+QHeaderView::section
+{ 
+    color:#b4b4b4;
+    padding-left:0px;
+    margin-left:0px;
+	background-color:#181a1d; /*表头整条的背景*/
+}
+
+
+
+
+/*QTableView表头高度和大小时，必须设置section的first，middle，last和设置字体颜色，不然设置大小不生效*/
+QHeaderView::section:first
+{
+    color:#b4b4b4;
+    height: 20px;
+    font: 11pt "Microsoft YaHei UI" bold;
+}
+ 
+QHeaderView::section:middle
+{
+    color:#b4b4b4;
+    height: 20px;
+    font: 11pt "Microsoft YaHei UI" bold;
+}
+ 
+QHeaderView::section:last
+{
+    color:#b4b4b4;
+    height: 20px;
+    font: 11pt "Microsoft YaHei UI" bold;
+}
+
+
+
+
+QPushButton{
+        border-radius: 3px;
+        border: none;
+		background: #2a3a57;
+        height:80px;
+        width:35px;
+        margin-top:0px;
+        margin-bottom:5px;
+}
+
+/*划过按钮*/
+QPushButton:enabled:hover{
+        background: #227dc3;
+}
+
+QPushButton:enabled:pressed{
+        background: #227dc3;
+}
+
+/*提货*/
+QPushButton#pushButton_getgoods{
+        width :75px;
+        height:35;
+        margin-bottom:5px;
+}
+
+/*出入金*/
+QPushButton#pushButton_FunfInOut{
+
+        width :75px;
+        height:35;
+        margin-bottom:5px;
+}
+

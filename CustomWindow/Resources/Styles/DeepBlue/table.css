@@ -1,0 +1,63 @@
+QPushButton
+{
+	background-color:rgb(70, 70, 70);
+    color: white;   
+	border-radius: 0px;  
+	border: 0px groove gray;
+    border-style: outset; 
+}
+QPushButton:hover
+{
+	background-color:white; 
+	color: black;
+}
+
+QPushButton:pressed
+{
+	background-color:rgb(220, 220, 220);
+    border-style: inset; 
+}
+
+QTableView
+{ 
+	color:#0000ff;
+	background-color:#282828; 
+	alternate-background-color:#323232; 
+	border:none;
+	selection-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ff8247, stop: 0.15 #898787 ,stop: 0.85 #898787,stop: 1 #ff8247);
+	margin: 0px;
+	border-bottom:0px;
+} 
+
+QHeaderView 
+{ 
+	color:#efefef;
+	font-size:12px; 
+	font-family:"宋体";
+	background-color: #464646; 
+	border: 0px solid rgb(144, 144, 144); 
+	border-left-color: rgba(255, 255, 255, 0); 
+	border-top-color: rgba(255, 255, 255, 0); 
+	border-radius:0px; 
+	min-height:29px; 
+} 
+
+QHeaderView::section 
+{ 
+	color:#efefef;
+	background-color:#404040; 
+	border: none;  
+}
+
+QTableView QTableCornerButton::section {
+    background: rgb(64, 64, 64);
+    /*border: 2px outset white;*/
+}
+
+QPushButton#deletebtnonerow
+{
+	/*border-image:url("./Resources/Images/table/btn_close.png");*/
+	border: 0px;
+	background:transparent;
+	margin:2px;
+}

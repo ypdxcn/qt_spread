@@ -1,0 +1,42 @@
+
+QTableView
+{ 
+	color:#e8e8e8;
+	/*background-color:#17202f; */
+	alternate-background-color:#20293a; 
+	selection-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #227dc3, stop: 0.15 #181a1d ,stop: 0.85 #181a1d,stop: 1 #227dc3);
+	margin: 0px;
+	border-bottom:15px;
+    min-height:100px;
+} 
+
+/*表头:整条的设置*/
+QHeaderView 
+{ 
+	color:#e8e8e8;
+	font-size:14px; 
+	font-family:"宋体";
+	background-color: #181a1d; 
+	/*border-left-color: rgba(255, 255, 255, 0); 
+	border-top-color: rgba(255, 255, 255, 0);*/ 
+	border-radius:4px; 
+    /*border-bottom:5px black;*/
+
+    border:0px solid #030303;/*先把边框宽度设为0，即隐藏所有表头边框*/
+    border-bottom:5px solid #030303;/*然后只显示下边框，因为上边框和左右边框是整个Table的边框，都显示会有2px的边框宽度*/
+    height:20px;/*表头高度*/
+} 
+
+QHeaderView::section
+{ 
+	color:#e8e8e8;
+    padding-left:0px;
+    margin-left:0px;
+	/*background-color:#181a1d; 表头整条的背景*/
+}
+
+QTableView QTableCornerButton::section {
+    /*background: green;*/
+    /*border: 2px outset white;*/
+}
+

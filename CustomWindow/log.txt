@@ -1,0 +1,104 @@
+
+跨平台日志
+/////////////////////////////////////////////////////////////////////////////////
+2018-1-31
+1.添加跨平台开关，hjconstant.h
+
+#define  Q_OS_UNIX(包括linux 和 Unix)
+#undef   Q_OS_WIN
+
+
+2.定义MAC下的消息宏定义
+
+
+
+
+2018-2-1
+1.去除文件的平台引入
+
+TraderCpMgr.cpp
+frmOptionDlg.h
+
+屏蔽掉平台依耐：
+#include  "windows.h" 
+
+
+
+
+2.自定义消息QParamEvent
+
+兼容windows的WPARAM , LPARAM
+
+
+
+
+PostMessage((HWND)m_arrint[i], uMsg, wParam, lParam);
+
+改为:
+
+QParamEvent *event = new QParamEvent(QEvent::Type(wParam));
+event->setWParam((void *)wParam);
+event->setLParam((void *)lParam);
+
+if (bAsyn)
+{
+	QApplication::postEvent((QWidget *)m_arrint[i], event);
+}
+else
+{
+	QApplication::sendEvent((QWidget *)m_arrint[i], event);
+}
+
+
+
+
+3.所有::nativeEvent庶改为customevent
+
+
+2018-2-2
+1.界面进行优化
+
+2018-2-8
+1.第三方库全部换成64位（E:\下载的库）
+2.通讯框架改为64位（Framwork）
+2.改为release下的调试，避免发布问题
+C++   -》常规   -》禁止优化
+C++   -》调试   -》调试信息格式选择edit  and continue数据库
+链接  -》 调试  -》生成调试数据库
+
+
+20180328
+1.交易流水按照配置来更新表值
+
+20180329
+1.修改bug:行情AU99.99在第四行，合约名称会改为连续交易
+mainWindow_buss.cpp文件2005行的代码，暂时改为1成2
+
+2.读写的时候，都转换一次编码
+
+int App::GetServerProperty(const QString  &strKey, const QString  &strField, QString &strVal)
+	QSettings *set = new QSettings(fileName, QSettings::IniFormat);
+	//读取的文本是ansi编码，需要转换【解决乱码】
+	set->setIniCodec(QTextCodec::codecForName("GB2312"));
+
+
+读的时候，不需要使用该转换函数，写的时候需要添加。
+	set->setIniCodec(QTextCodec::codecForName("GB2312"));
+
+
+
+20180424
+合并代码
+
+1.代码地址如下:
+E:\GCN\SVN_114_Server\qt_client\CustomWindow\TraderCpMgr.cpp
+\\10.0.128.34\Macintosh HD\Users\hfy\Desktop\qtclient\CustomWindow\TraderCpMgr.cpp
+
+
+
+2.void CDelayReqHandler::HandleRecDeferOrder( KPFLAG eKPFlag )
+
+windows平台为：
+AddCustomInfoReq(true, true, false);
+mac平台为:
+AddCustomInfoReq(true, false, false);

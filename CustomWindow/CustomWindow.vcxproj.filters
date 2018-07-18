@@ -1,0 +1,1453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{56ad277e-32f1-4c2a-9707-de1ba49626f1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ea48207d-4913-4d0c-99c1-cf495b491f69}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{471e7e2e-b16a-46df-a988-072a12291188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{2e5fb058-b412-4467-a3b0-b4c3d0c023c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6aebf5c0-ec07-47dc-a8a2-7db4f306bd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bussiness">
+      <UniqueIdentifier>{206fed53-b09e-4987-81b8-de2e60a6b05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bussiness\Table">
+      <UniqueIdentifier>{3f4cd2c7-a6a3-429f-821b-548643f7ca2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gesssocket">
+      <UniqueIdentifier>{f0363c03-3b37-4f9a-a08e-88b4480ca773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{cbd2719a-4af1-4af6-84ba-0b2bc612d9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr">
+      <UniqueIdentifier>{7ca0c05b-e7d4-4ff7-b62b-f8c9b524240b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\各个连接口">
+      <UniqueIdentifier>{99b58363-7c31-42aa-bc34-b7742e0ec3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{ac0c14c0-cc45-4287-9549-988ebfb908e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{8b2e3d59-b261-462a-955a-3ec03293cdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu">
+      <UniqueIdentifier>{f8047317-ecd2-4be0-b9c3-8d92bfcad7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu\sys">
+      <UniqueIdentifier>{bf27c308-c898-4518-82e0-ca6b327f66ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu\operation">
+      <UniqueIdentifier>{84e3da0c-97fe-40b5-9f41-8224c09dcc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu\search">
+      <UniqueIdentifier>{23582fd2-be9d-414a-a6e0-93520c90af55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu\search\hisSearch">
+      <UniqueIdentifier>{9c9ee2d0-e3e9-44cc-8fd9-91b80f874b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu\search\curSearch">
+      <UniqueIdentifier>{a3fad043-611a-4db8-a7cf-156bfe1fc9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\menu\set">
+      <UniqueIdentifier>{c56bea0b-84cd-4a32-965e-01455428a7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preOrder">
+      <UniqueIdentifier>{404ac253-3b53-4655-88e9-49beb47d720f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_CustomWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frminputdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frminputdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmmessagedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmmessagedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MarketTableView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MarketTableView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TableItemDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TableItemDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frminputdialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmmessagedialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmlogindialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmlogindialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmlogindialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\app.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\AppInt.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppInt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppInt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\iconhelper.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\WindowTitle.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WindowTitle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WindowTitle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CommHandler.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\CreateVerificationCode.cpp">
+      <Filter>Bussiness\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="business\MarketTableView.cpp">
+      <Filter>Bussiness\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="business\TableItemDelegate.cpp">
+      <Filter>Bussiness\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="mainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HJDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\AlmHtmBase.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\CodeTableMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\CodeTableMgrOld.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\CustomInfoMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\PosiMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\ProdCodeMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\QuotationMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\SystemParaMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\VarietyMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="HJGlobalFun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HJCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TranMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TranMessage.cpp">
+      <Filter>Bussiness</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProcessInterfaceB1C.cpp">
+      <Filter>Net\各个连接口</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProcessInterfaceB2C.cpp">
+      <Filter>Net\各个连接口</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProcessInterfaceB3C.cpp">
+      <Filter>Net\各个连接口</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProcessInterfaceB4C.cpp">
+      <Filter>Net\各个连接口</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProcessInterfaceYC.cpp">
+      <Filter>Net\各个连接口</Filter>
+    </ClCompile>
+    <ClCompile Include="net\SufRecvHandler.cpp">
+      <Filter>Net\各个连接口</Filter>
+    </ClCompile>
+    <ClCompile Include="net\MyRSA.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="TraderCpMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TraderCpMgr_HJBroadcast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Startup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmConfirmDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmConfirmDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmConfirmDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="mainWindow_buss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmReportDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmReportDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\DelayReqBase.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\RealTimeReqBase.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="business\CustomInfoMgrEx.cpp">
+      <Filter>Bussiness</Filter>
+    </ClCompile>
+    <ClCompile Include="business\DelayReqHandler.cpp">
+      <Filter>Bussiness</Filter>
+    </ClCompile>
+    <ClCompile Include="business\RealTimeReqHandler.cpp">
+      <Filter>Bussiness</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Clicklabel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Clicklabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Clicklabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\RandCodelabel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RandCodelabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RandCodelabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Struct.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="business\QuoteStandardItemModel.cpp">
+      <Filter>Bussiness\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QuoteStandardItemModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QuoteStandardItemModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmDeferCloseCalDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmDeferCloseCalDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmDefersettlementQuoteDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmDefersettlementQuoteDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmTradeStatusDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmTradeStatusDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmFundInOutDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmFundInOutDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmCurrentCustomOwnDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmCurrentCustomOwnDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmDaySettlementDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmDaySettlementDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmMonthSettlementDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmMonthSettlementDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmStopOutDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmStopOutDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmMemberNoticeDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmMemberNoticeDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\keyBoardlabel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_keyBoardlabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_keyBoardlabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Business.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmWTSearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmWTSearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmDeferPosiSearchDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmDeferPosiSearchDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmMatchSearchDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmMatchSearchDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmFunInOutSearchDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmFunInOutSearchDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmHistoryWTSearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmHistoryWTSearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmHistoryMatchSearchDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmHistoryMatchSearchDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmHistoryDeferPosiSearchDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmHistoryDeferPosiSearchDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmStoreSearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmStoreSearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmCapitalChangeSearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmCapitalChangeSearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmCapitalSearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmCapitalSearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmFeeDetailSearchDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmFeeDetailSearchDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmGetGoodsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmGetGoodsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mainWindow_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QButtonTabWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QButtonTabWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\QButtonTabWidget.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmDeepQuoteDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmDeepQuoteDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmDeepQuoteDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientTips.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\IniFilesManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\TiHuoMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmChangePswdDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmChangePswdDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmUnlockDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmUnlockDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\MyExcel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\QExcel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\HJQueryBase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmNoticeDetailDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmNoticeDetailDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StyleSheetDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StyleSheetDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\StyleSheetDialog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmModifyOrderDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmModifyOrderDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmModifyOrderDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOptionDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOptionDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DialogTitle.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogTitle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogTitle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\StyleSheetWidget.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmFramelessDialogBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmFramelessDialogBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\windowdragger.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_windowdragger.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_windowdragger.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOption_1.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOption_1.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOption_3.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOption_3.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOption_4.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOption_4.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOption_5.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOption_5.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOption_6.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOption_6.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmOption_2.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmOption_2.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ReportBase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\reportDrawWidget.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ModifySetting.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_1.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_2.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_3.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_4.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_5.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_6.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOption_base.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmOptionDlg.cpp">
+      <Filter>Dialog\menu\set</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmWTSearchDialog.cpp">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmMatchSearchDlg.cpp">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmDeferPosiSearchDlg.cpp">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmCapitalChangeSearchDialog.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmCapitalSearchDialog.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmFeeDetailSearchDialog.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmFramelessDialogBase.cpp">
+      <Filter>Dialog\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmHistoryDeferPosiSearchDlg.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmHistoryMatchSearchDlg.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmHistoryWTSearchDialog.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmFunInOutSearchDlg.cpp">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmStoreSearchDialog.cpp">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmUnlockDlg.cpp">
+      <Filter>Dialog\menu\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmChangePswdDlg.cpp">
+      <Filter>Dialog\menu\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmDeferCloseCalDlg.cpp">
+      <Filter>Dialog\menu\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmTradeStatusDlg.cpp">
+      <Filter>Dialog\menu\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmDaySettlementDlg.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmMonthSettlementDlg.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmMemberNoticeDlg.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmNoticeDetailDlg.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmReportDlg.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmCurrentCustomOwnDlg.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmDefersettlementQuoteDlg.cpp">
+      <Filter>Dialog\menu\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmFundInOutDlg.cpp">
+      <Filter>Dialog\menu\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmGetGoodsDlg.cpp">
+      <Filter>Dialog\menu\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmStopOutDialog.cpp">
+      <Filter>Dialog\menu\search</Filter>
+    </ClCompile>
+    <ClCompile Include="PreOrder\StopPLMgr.cpp">
+      <Filter>preOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\PreOrder.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QtTest.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QtTest.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmSetPreOrderDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmSetPreOrderDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmSetPreOrderDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\QtTest.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmTipsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmTipsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmTipsDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="business\CommonStandardItemModel.cpp">
+      <Filter>Bussiness\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CommonStandardItemModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CommonStandardItemModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\QParamEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\frmChangeAccountDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmChangeAccountDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmChangeAccountDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="business\MarketTableView_qh.cpp">
+      <Filter>Bussiness\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MarketTableView_qh.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MarketTableView_qh.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frmQHLoginDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frmQHLoginDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="frmQHLoginDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CustomWindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmmessagedialog.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frminputdialog.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmlogindialog.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frminputdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmlogindialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmmessagedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\AppInt.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\WindowTitle.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="business\MarketTableView.h">
+      <Filter>Bussiness\Table</Filter>
+    </CustomBuild>
+    <CustomBuild Include="business\TableItemDelegate.h">
+      <Filter>Bussiness\Table</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmConfirmDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmConfirmDlg.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmReportDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\Clicklabel.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\RandCodelabel.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="business\QuoteStandardItemModel.h">
+      <Filter>Bussiness\Table</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDeferCloseCalDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDefersettlementQuoteDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmTradeStatusDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFundInOutDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmCurrentCustomOwnDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDaySettlementDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmMonthSettlementDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmStopOutDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmMemberNoticeDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\keyBoardlabel.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmWTSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDeferPosiSearchDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmMatchSearchDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFunInOutSearchDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmHistoryWTSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmHistoryMatchSearchDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmHistoryDeferPosiSearchDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmStoreSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmCapitalChangeSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmCapitalSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFeeDetailSearchDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmGetGoodsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\QButtonTabWidget.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDeepQuoteDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDeepQuoteDlg.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmChangePswdDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmUnlockDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmNoticeDetailDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\StyleSheetDialog.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmModifyOrderDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmModifyOrderDlg.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOptionDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\DialogTitle.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\StyleSheetWidget.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFramelessDialogBase.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\windowdragger.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_1.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_3.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_4.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_5.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_6.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_2.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_1.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_2.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_3.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_4.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_5.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_6.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOption_base.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmOptionDlg.h">
+      <Filter>Dialog\menu\set</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmWTSearchDialog.h">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmMatchSearchDlg.h">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDeferPosiSearchDlg.h">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmCapitalChangeSearchDialog.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmCapitalSearchDialog.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFeeDetailSearchDialog.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFramelessDialogBase.h">
+      <Filter>Dialog\menu</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmHistoryDeferPosiSearchDlg.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmHistoryMatchSearchDlg.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmHistoryWTSearchDialog.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFunInOutSearchDlg.h">
+      <Filter>Dialog\menu\search\curSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmStoreSearchDialog.h">
+      <Filter>Dialog\menu\search\hisSearch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmUnlockDlg.h">
+      <Filter>Dialog\menu\sys</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmChangePswdDlg.h">
+      <Filter>Dialog\menu\sys</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDeferCloseCalDlg.h">
+      <Filter>Dialog\menu\operation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmTradeStatusDlg.h">
+      <Filter>Dialog\menu\operation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDaySettlementDlg.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmMonthSettlementDlg.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmMemberNoticeDlg.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmNoticeDetailDlg.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmReportDlg.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmCurrentCustomOwnDlg.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmDefersettlementQuoteDlg.h">
+      <Filter>Dialog\menu\operation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmFundInOutDlg.h">
+      <Filter>Dialog\menu\operation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmGetGoodsDlg.h">
+      <Filter>Dialog\menu\operation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmStopOutDialog.h">
+      <Filter>Dialog\menu\search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\QtTest.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmSetPreOrderDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmSetPreOrderDlg.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\QtTest.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmTipsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmTipsDlg.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\QExceL.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="business\CommonStandardItemModel.h">
+      <Filter>Bussiness\Table</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\QParamEvent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmChangeAccountDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dialog\frmChangeAccountDlg.h">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="business\MarketTableView_qh.h">
+      <Filter>Bussiness\Table</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frmQHLoginDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frmQHLoginDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_frminputdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmlogindialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmmessagedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\app.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\iconhelper.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\myhelper.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GESSPacket\BroadcastPacketAndStruct.h">
+      <Filter>Gesssocket</Filter>
+    </ClInclude>
+    <ClInclude Include="GESSPacket\TradePacketAndStruct.h">
+      <Filter>Gesssocket</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CommHandler.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\CreateVerificationCode.h">
+      <Filter>Bussiness\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HJDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HJConstant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\AlmHtmBase.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\CodeTableMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\CodeTableMgrOld.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\CustomInfoMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\PosiMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\ProdCodeMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\QuotationMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\SystemParaMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\VarietyMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="StDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HJGlobalFun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HJCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranMessage.h">
+      <Filter>Bussiness</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macrodefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProcessInterfaceB1C.h">
+      <Filter>Net\各个连接口</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProcessInterfaceB2C.h">
+      <Filter>Net\各个连接口</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProcessInterfaceB3C.h">
+      <Filter>Net\各个连接口</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProcessInterfaceB4C.h">
+      <Filter>Net\各个连接口</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProcessInterfaceYC.h">
+      <Filter>Net\各个连接口</Filter>
+    </ClInclude>
+    <ClInclude Include="net\SufRecvHandler.h">
+      <Filter>Net\各个连接口</Filter>
+    </ClInclude>
+    <ClInclude Include="net\MyRSA.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraderCpMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syncQueue.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="threadPool.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Startup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmConfirmDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmReportDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\DelayReqBase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\RealTimeReqBase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="business\CustomInfoMgrEx.h">
+      <Filter>Bussiness</Filter>
+    </ClInclude>
+    <ClInclude Include="business\DelayReqHandler.h">
+      <Filter>Bussiness</Filter>
+    </ClInclude>
+    <ClInclude Include="business\RealTimeReqHandler.h">
+      <Filter>Bussiness</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Def.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Const.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Struct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmDeferCloseCalDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmDefersettlementQuoteDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmTradeStatusDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmFundInOutDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmCurrentCustomOwnDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmDaySettlementDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmMonthSettlementDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmStopOutDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmMemberNoticeDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Business.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmWTSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmDeferPosiSearchDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmMatchSearchDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmFunInOutSearchDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmHistoryWTSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmHistoryMatchSearchDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmHistoryDeferPosiSearchDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmStoreSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmCapitalChangeSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmCapitalSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmFeeDetailSearchDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmGetGoodsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmDeepQuoteDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientTips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\IniFilesManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\TiHuoMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmChangePswdDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmUnlockDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\MyExcel.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HJQueryBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmNoticeDetailDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmModifyOrderDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOptionDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmFramelessDialogBase.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOption_1.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOption_3.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOption_4.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOption_5.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOption_6.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmOption_2.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ReportBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\reportDrawWidget.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ModifySetting.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PreOrder\PreOrderDef.h">
+      <Filter>preOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="PreOrder\StopPLMgr.h">
+      <Filter>preOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\PreOrder.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QtTest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmSetPreOrderDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmTipsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minidump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmChangeAccountDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_frmQHLoginDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CustomWindow.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
